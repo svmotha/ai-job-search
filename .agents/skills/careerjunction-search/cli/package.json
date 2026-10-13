@@ -1,0 +1,20 @@
+{
+  "name": "careerjunction-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching jobs on CareerJunction (careerjunction.co.za), a South African job board — no authentication, zero runtime dependencies. Personal use.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "careerjunction-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  }
+}

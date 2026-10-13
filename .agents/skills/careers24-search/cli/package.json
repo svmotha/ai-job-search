@@ -1,0 +1,20 @@
+{
+  "name": "careers24-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching jobs on Careers24 (careers24.com), a South African job board — no authentication, zero runtime dependencies. Personal use only (Media24 ToS).",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "careers24-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  }
+}
